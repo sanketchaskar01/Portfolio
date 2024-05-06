@@ -1,0 +1,30 @@
+body
+nav{
+    background-color: black;
+    height: 60px;
+    position: sticky;
+    border-radius: 5px;
+}
+body{
+    background-color: beige;
+}
+ul{
+    list-style-type: none;
+    padding: 2px;
+
+}
+li{
+    display: inline-block;
+    width: 100px;
+    color: white;
+    font-size: large;
+    margin-left: 50px;
+    transition: 0.3 ease;
+}
+a{
+    color: white;
+}
+.li:hover{
+    color: yellow;
+}
+
